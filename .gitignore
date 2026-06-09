@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# PyCharm / JetBrains
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and generated artifacts
+data/processed/*
+!data/processed/.gitkeep
+
+# Local secrets
+.env
+*.env

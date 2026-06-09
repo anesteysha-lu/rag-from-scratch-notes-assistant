@@ -1,0 +1,14 @@
+# Верхнеуровневые зависимости проекта.
+# Остальные пакеты (torch, transformers, tokenizers и т.д.) подтянутся
+# автоматически как зависимости sentence-transformers.
+
+numpy
+pandas
+scikit-learn
+jupyter
+
+# Блок 4: эмбеддинги (semantic search)
+sentence-transformers
+
+# Блок 7: генерация ответа через локальную LLM (Ollama)
+ollama
